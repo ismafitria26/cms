@@ -24,7 +24,7 @@
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
                 <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         ISMA FITRIA RISNANDARI<br><br>
-                        NIM : 2041720033 KELAS : TI 2G
+                        NIM : 2041720033 KELAS : TI2G
                 </div>
         </div>
     </body>
