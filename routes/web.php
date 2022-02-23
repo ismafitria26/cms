@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//PRAKTIKUM 1
+//nomor1
 Route::get('/', function () {
-    return view('welcome');
+    echo "Hi! Selamat Datang di Website Laravel";
+});
+//nomor2
+Route::get('/about', function () {
+    echo "NIM   : 2041720033 <br>";
+    echo "NAMA  : Isma Fitria Risnandari <br>";
+    echo "KELAS : TI-2G";
+});
+//nomor3
+Route::get('/articles/{id}', function ($id) {
+    echo "Ini adalah halaman Artikel dengan ID: ".$id;
 });
