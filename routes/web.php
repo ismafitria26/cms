@@ -50,7 +50,7 @@ Route::get('/about', [AboutController::class, 'about']);
 Route::get('/articles/{id}', [ArticleController::class, 'articles']);
 */
 
-
+/*
 //PRAKTIKUM 3
 //nomor1
 Route::get('/', [WelcomeController::class, 'index']);
@@ -105,3 +105,12 @@ Route::get('/about-us', function () {
 /*
 
 */
+/*
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+*/
+
+Route::get('/', function() {
+    return view('home');
+});
